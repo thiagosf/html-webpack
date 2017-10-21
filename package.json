@@ -1,0 +1,26 @@
+{
+  "name": "html-webpack",
+  "version": "1.0.0",
+  "description": "A simple webpack settings to make static sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "Thiago Silva Ferreira <thiago@thiagosf.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.2.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.2"
+  }
+}
