@@ -1,7 +1,7 @@
 systems({
   'html-webpack': {
     depends: [],
-    image: {"docker": "azukiapp/node"},
+    image: {"docker": "node:8"},
     provision: [
       "npm install",
     ],
